@@ -6,9 +6,9 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-//mongoose.connect('mongodb://localhost:32769/todoList');
 mongoose.connect('mongodb://imranjaved728:fucklifE@ds163053.mlab.com:63053/todolist123');
-
+//mongoose.connect('mongodb://localhost:32769/todoList');
+//https://mlab.com/databases/todolist123
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
